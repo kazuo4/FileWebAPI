@@ -1,0 +1,26 @@
+# Visual Studio / VS Code
+.vs/
+*.user
+*.suo
+*.vscode/
+
+# Build output
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+
+# NuGet packages
+*.nupkg
+packages/
+
+# Logs
+*.log
+
+# Docker
+*.env
+
+# OS files
+.DS_Store
+Thumbs.db
