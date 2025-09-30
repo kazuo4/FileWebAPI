@@ -1,4 +1,4 @@
-namespace FileWebAPI
+namespace FileWebAPI.Models
 {
     public class MyFile : IMyFile
     {
@@ -6,6 +6,7 @@ namespace FileWebAPI
         public string FileValue { get; set; }
         public DateTime CreatedAt { get; set; }
         public DateTime UpdatedAt { get; set; }
+        public DateTime Accessed { get; set; }  
 
         public MyFile(string fileName)
         {
